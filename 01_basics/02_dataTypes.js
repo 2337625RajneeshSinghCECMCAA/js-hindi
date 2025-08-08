@@ -25,3 +25,5 @@ let isloggedIn = false
 console.log(typeof null);// object
 console.log(typeof undefined);// undefined
 
+
+
