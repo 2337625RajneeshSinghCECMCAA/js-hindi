@@ -1,25 +1,25 @@
-// // //array
+// // // //array
 
 
 // const myArr = [ 0,1,2,3,4,5 ]
 
-// // const myHeros = ["shaktiman", "naagaraj"]
+// // // const myHeros = ["shaktiman", "naagaraj"]
 
-// // const myArr1 = new Array ( 1,2,3,4 )
+// // // const myArr1 = new Array ( 1,2,3,4 )
 
-// // console.log(myArr[0]);
+// // // console.log(myArr[0]);
 
-// // //array method 
+// // // //array method 
 
-// // myArr.push(6)//add new value
-// // myArr.pop()// delete last value auto
-// // // myArr.unshift(5)//insert first in output
-// //  myArr.shift()
+// // // myArr.push(6)//add new value
+// // // myArr.pop()// delete last value auto
+// // // // myArr.unshift(5)//insert first in output
+// // //  myArr.shift()
 
 
-// // console.log(myArr);
+// // // console.log(myArr);
 
-// // slice , splice
+// // // slice , splice
 
 // console.log("A",myArr);
 
@@ -34,13 +34,13 @@
 // console.log(myn2);
 
 
-const myMarvalheros = ["thor", "ironman", "spiderman"]
-const mydc = ["superman", "flash", "batman"]
-  myMarvalheros.push(mydc)
-console.log( myMarvalheros);
-// const allHeros = myMarvalheros.concat(mydc)
-// console.log( allHeros);
-const anh =myMarvalheros.flat(1)
+// const myMarvalheros = ["thor", "ironman", "spiderman"]
+// const mydc = ["superman", "flash", "batman"]
+//   myMarvalheros.push(mydc)
+// console.log( myMarvalheros);
+// // const allHeros = myMarvalheros.concat(mydc)
+// // console.log( allHeros);
+// const anh =myMarvalheros.flat(1)
 
-console.log(anh);
+// console.log(anh);
 
