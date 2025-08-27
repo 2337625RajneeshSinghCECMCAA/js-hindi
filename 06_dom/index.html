@@ -11,8 +11,8 @@
         }
     </style>
 </head>
-<body class="bg-black">
-    <div >
+<body >
+    <!-- <div >
         <h1 id ="title" class="heading">Dom learning on best</h1>
         <h2>lorem ipsum djkhsd kjashsso jdihdichs</h2>
         <h3>lorem ipsum djkhsd kjashsso jdihdichs</h3>
@@ -26,7 +26,40 @@
             <li>four</li>
             <li>four</li>
         </ul>                                                     
-    </div>
+    </div> -->
+    <ul class ="language">
+        <li>javascript</li>
+    </ul>
     
 </body>
+<script>
+   function addlanguage(langName) {
+        const li = document.createElement('li');
+        li.innerHTML = `${langName}`;
+        document.querySelector('.language').appendChild(li)
+      }
+      addlanguage("python")
+
+      function addoptilanguage (langName){
+        const li = document.createElement('li');
+        li.appendChild(document.createTextNode(langName))
+        document.querySelector('.language').append(li)
+      }
+      addoptilanguage('golang')
+
+      //edit
+      const secondlang = document.querySelector('li:nth-child(2)')
+      const li = document.createElement('li')
+      li.textContent = 'mojo'
+      secondlang.replaceWith(li)
+
+
+      //remove
+      const lastlang = document.querySelector('li:last-child')
+       lastlang.remove()
+
+
+
+
+</script>
 </html>
